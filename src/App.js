@@ -7,11 +7,10 @@ import './styles.css'
 export default function App() {
 
   return (
-    <div>
+
 
   
-    <Canvas className='canv' dpr={[1, 2]} shadows camera={{ position: [0, 0, 10], near: 0.1, far: 1000 }} 
- >
+    <Canvas className='canv' dpr={[1, 2]} shadows camera={{ position: [0, 0, 10], near: 0.1, far: 1000 }} >
 
 
       <ambientLight intensity={1} />
@@ -31,7 +30,7 @@ export default function App() {
     </Canvas>
 
  
-    </div>
+   
     
   )
 }
